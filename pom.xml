@@ -526,6 +526,10 @@
                             </transformers>
                             <relocations>
                                 <relocation>
+                                    <pattern>jakarta.annotation</pattern>
+                                    <shadedPattern>${shadeBase}.jakarta.annotation</shadedPattern>
+                                </relocation>
+                                <relocation>
                                     <pattern>org.iq80.leveldb</pattern>
                                     <shadedPattern>${shadeBase}.org.iq80.leveldb</shadedPattern>
                                 </relocation>
